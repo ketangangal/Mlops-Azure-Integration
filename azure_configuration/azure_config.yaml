@@ -1,0 +1,11 @@
+azure_workspace_config:
+  workspace_name:
+  workspace_location:
+  resource_group:
+  subscription_id:
+
+model_config:
+  run_id:
+  model_name:
+  model_uri:
+
