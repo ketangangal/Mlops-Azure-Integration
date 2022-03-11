@@ -1,11 +1,13 @@
+azure_endpoint:
+  scoring_uri: http://d425a0dd-ef72-4bea-b2d2-bff2d2fce7e5.eastasia.azurecontainer.io/score
 azure_workspace_config:
-  workspace_name:
-  workspace_location:
-  resource_group:
+  resource_group: mlflow_azure
   subscription_id:
-
+  workspace_location: East US
+  workspace_name: MLOps-Azure
 model_config:
-  run_id:
-  model_name:
-  model_uri:
-
+  aci_service_name: sklearn-model-dev4
+  description: sklearn model
+  image_name: sklearnimage
+  model_name: sklearn_dev_model1
+  model_uri: runs:/3738918d73fa4c3e9949d26c04142f02/model
