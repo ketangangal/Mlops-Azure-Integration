@@ -6,8 +6,8 @@ azure_workspace_config:
   workspace_location: East US
   workspace_name: MLOps-Azure
 model_config:
-  aci_service_name: sklearn-model-dev4
+  aci_service_name: sklearn-model-dev5
   description: sklearn model
   image_name: sklearnimage
   model_name: sklearn_dev_model1
-  model_uri: runs:/3738918d73fa4c3e9949d26c04142f02/model
+  model_uri: runs:/bee643b6044e45a8968bae8462e4b23a/model
