@@ -60,7 +60,7 @@ location (East-US)
 2. Get your Run Id may be local or in any storage
 ```
 https://azure.github.io/azureml-sdk-for-r/reference/aci_webservice_deployment_config.html
-
+Represents a machine learning model deployed as a web service endpoint on Azure Container Instances.
 One interesting bit of functionality that Azure provides is the ACI webservice. 
 This webservice is specifically used for the purposes of debugging or testing some model under development, 
 hence why it is suitable for use in the development stage.
