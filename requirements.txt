@@ -1,0 +1,4 @@
+azureml-sdk
+scikit-learn==0.22.2.post1
+mlflow==1.10.0
+from_root
